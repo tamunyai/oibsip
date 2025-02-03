@@ -5,10 +5,10 @@ This repository contains projects completed during the **Oasis Infobyte (OIBSIP)
 ## Task List
 
 - [ ] **Voice Assistant** – A Python-based assistant that recognizes and executes voice commands using speech recognition and text-to-speech synthesis.
-- [ ] **BMI Calculator** – Calculates Body Mass Index (BMI) based on user input and provides health status.
-- [ ] **Simple Password Generator** – Generates secure, random passwords with customizable length and complexity.
+- [x] **BMI Calculator** – Calculates Body Mass Index (BMI) based on user input and provides health status.
+- [x] **Simple Password Generator** – Generates secure, random passwords with customizable length and complexity.
 - [ ] **Weather App with JavaScript** – A browser-based app that fetches real-time weather data using APIs.
-- [ ] **Browser-Based Chat Application** – A web-based chat app enabling real-time messaging via WebSocket.
+- [x] **Browser-Based Chat Application** – A web-based chat app enabling real-time messaging via WebSocket.
 
 ## How to Run
 
