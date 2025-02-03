@@ -3,6 +3,8 @@ import threading
 
 from config import HOST, PORT
 
+USER_INPUT_PROMPT = "> : "
+
 
 def receive_messages(client_socket):
     try:
@@ -12,7 +14,7 @@ def receive_messages(client_socket):
                 break
 
             print(f"\r{message}")
-            print(f"> : ", end="", flush=True)
+            print(USER_INPUT_PROMPT, end="", flush=True)
 
     except:
         pass
@@ -29,14 +31,14 @@ def connect_to_server():
     client_socket.send(username.encode("utf-8"))
 
     colored_username = client_socket.recv(1024).decode("utf-8")
-    
+
     print(f"\nWelcome {colored_username}! You are now connected to the chat.")
 
     thread = threading.Thread(target=receive_messages, args=(client_socket,))
     thread.start()
 
     while True:
-        message = input("> : ")
+        message = input(USER_INPUT_PROMPT)
         if message.lower() == "exit":
             break
 
