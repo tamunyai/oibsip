@@ -12,7 +12,7 @@ A **real-time chat application** that allows users to exchange messages instantl
 
 ## Features
 
-- [ ] Real-time messaging via client-server communication
+- [x] Real-time messaging via client-server communication
 - [ ] (Advanced) User authentication for secure access
 - [ ] (Advanced) Support for multimedia sharing
 - [ ] (Advanced) Message history and notifications
