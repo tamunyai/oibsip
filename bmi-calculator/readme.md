@@ -10,8 +10,8 @@ A Python-based **BMI Calculator** that determines a user's **Body Mass Index (BM
 
 ## Features
 
-- [ ] Calculates BMI using the standard formula
-- [ ] Categorizes BMI into predefined health ranges
+- [x] Calculates BMI using the standard formula
+- [x] Categorizes BMI into predefined health ranges
 - [ ] (Advanced) Graphical User Interface (GUI) for ease of use
 - [ ] (Advanced) Data storage for tracking user history
 - [ ] (Advanced) Visualization of BMI trends with charts
