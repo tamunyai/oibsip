@@ -7,8 +7,8 @@ A Python-based **Random Password Generator** that creates secure passwords based
 
 ## Features
 
-- [ ] Generates random passwords with customizable length and character types
-- [ ] Ensures strong and secure password generation
+- [x] Generates random passwords with customizable length and character types
+- [x] Ensures strong and secure password generation
 - [ ] (Advanced) GUI interface for user-friendly interaction
 - [ ] (Advanced) Clipboard integration for quick copying
 - [ ] (Advanced) Custom security rules and exclusions
