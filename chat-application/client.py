@@ -28,7 +28,9 @@ def connect_to_server():
     username = input("Enter your username: ")
     client_socket.send(username.encode("utf-8"))
 
-    print(f"\nWelcome {username}! You are now connected to the chat.")
+    colored_username = client_socket.recv(1024).decode("utf-8")
+    
+    print(f"\nWelcome {colored_username}! You are now connected to the chat.")
 
     thread = threading.Thread(target=receive_messages, args=(client_socket,))
     thread.start()
